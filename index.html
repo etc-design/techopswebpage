@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Effective IT Solutions for Business | Evergreen Techops USA</title>
+<meta name="description" content="Optimize your tech strategy and drive growth with Evergreen Techops Consulting in Washington. We offer IT consulting, cybersecurity, cloud services, and more.">
+<meta name="keywords" content="Washington IT Consulting, Evergreen Techops Consulting, IT Solutions Washington, Cybersecurity Services, Cloud Services Management, Data Analytics, IT Support Washington, Residential IT">
+<link rel="canonical" href="https://evergreentechops.com/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://evergreentechops.com/">
+<meta property="og:title" content="Effective IT Solutions for Business | Evergreen Techops USA">
+<meta property="og:description" content="IT consulting, cybersecurity, cloud services, and home IT support in Washington.">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --mist:#eef2f0; --paper:#fbfcfb; --fir:#123524; --fir-2:#1d4d36; --ink:#16211b; --slate:#51605a;
+  --line:#d3dcd7; --signal:#e6b422; --ok:#3fa56b;
+  --head:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --body:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important}}
+body{margin:0;background:var(--mist);color:var(--ink);font:400 1.0625rem/1.6 var(--body)}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--signal);outline-offset:3px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:var(--head);line-height:1.1;margin:0;letter-spacing:-.01em}
+h2{font-size:clamp(1.75rem,3.4vw,2.5rem);font-weight:700}
+h3{font-size:1.25rem;font-weight:700}
+p{margin:0 0 1em;max-width:62ch}
+.btn{display:inline-block;padding:.8em 1.4em;border-radius:6px;font-weight:600;text-decoration:none;border:2px solid var(--fir);background:var(--fir);color:#fff;cursor:pointer;font-size:1rem;font-family:var(--body)}
+.btn:hover{background:var(--fir-2)}
+.btn.alt{background:transparent;color:var(--fir)}
+.btn.alt:hover{background:var(--fir);color:#fff}
+
+header{background:var(--paper);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:68px}
+.brand{font:700 1.2rem var(--head);text-decoration:none;color:var(--fir);display:flex;align-items:center;gap:.6rem}
+.brand img{height:44px;width:auto}
+nav{display:flex;gap:1.5rem;align-items:center}
+nav a{text-decoration:none;font-weight:500;color:var(--slate)}
+nav a:hover{color:var(--fir)}
+@media(max-width:700px){nav a:not(.btn){display:none}}
+
+.hero{background:var(--fir);color:#eaf2ed;padding:88px 0 96px}
+.hero .wrap{display:grid;grid-template-columns:1.25fr 1fr;gap:56px;align-items:center}
+.hero h1{font-size:clamp(2.4rem,5.6vw,4.25rem);font-weight:700;color:#fff}
+.hero p{font-size:1.2rem;margin:1.4rem 0 2rem;color:#c9dad0}
+.hero .btn{background:var(--signal);border-color:var(--signal);color:#1b1500}
+.hero .btn:hover{background:#f2c53f}
+.hero .btn.alt{background:transparent;color:#fff;border-color:#6f9380;margin-left:.5rem}
+.hero .btn.alt:hover{background:#fff;color:var(--fir)}
+.board{background:#0d2a1c;border:1px solid #2b5a43;border-radius:10px;padding:22px 24px}
+.board h2{font:600 .95rem var(--body);color:#9fbcac;margin-bottom:12px;letter-spacing:0}
+.board ul{list-style:none;margin:0;padding:0}
+.board li{display:flex;justify-content:space-between;align-items:center;padding:13px 0;border-top:1px solid #1f4632;color:#fff;font-weight:500}
+.board li span{display:flex;align-items:center;gap:.55rem;font-weight:400;color:#9fbcac;font-size:.95rem}
+.board i{width:10px;height:10px;border-radius:50%;background:var(--ok);display:inline-block;animation:pulse 2.4s ease-in-out infinite}
+.board li:nth-child(2) i{animation-delay:.4s}.board li:nth-child(3) i{animation-delay:.8s}.board li:nth-child(4) i{animation-delay:1.2s}
+@keyframes pulse{50%{opacity:.35}}
+@media(max-width:860px){.hero .wrap{grid-template-columns:1fr}.hero{padding:60px 0 68px}}
+
+section{padding:84px 0}
+.clients{background:#fff;border-bottom:1px solid var(--line);padding:44px 0}
+.clients h2{font-size:1.15rem;font-weight:600;font-family:var(--body);color:var(--slate);text-align:center;margin-bottom:28px}
+.clients ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:28px 56px}
+.clients img{display:block;height:76px;width:auto;max-width:200px;object-fit:contain}
+.clients img.wide{height:auto;width:230px;max-width:230px}
+.intro{max-width:62ch;margin-bottom:40px}
+.intro p{color:var(--slate);margin-top:.8rem}
+
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:0;border-top:2px solid var(--fir)}
+.services div{padding:26px 28px 26px 0;border-bottom:1px solid var(--line)}
+.services p{color:var(--slate);margin:.5rem 0 0}
+
+.home{background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.home .wrap{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+.home ul{margin:0;padding:0;list-style:none}
+.home li{padding:14px 0;border-top:1px solid var(--line);font-weight:500}
+.home li:last-child{border-bottom:1px solid var(--line)}
+@media(max-width:800px){.home .wrap{grid-template-columns:1fr;gap:28px}}
+
+blockquote{margin:0;max-width:760px}
+blockquote p{font:500 clamp(1.4rem,2.8vw,2rem)/1.3 var(--head);color:var(--fir);max-width:none}
+blockquote footer{color:var(--slate);font-weight:500}
+
+.plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:24px;align-items:stretch}
+.plan{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:30px;display:flex;flex-direction:column}
+.plan.pop{border:2px solid var(--fir)}
+.plan .tag{align-self:flex-start;background:var(--signal);color:#1b1500;font-weight:600;font-size:.85rem;padding:.15em .7em;border-radius:99px;margin-bottom:12px}
+.price{font:700 2rem var(--head);margin:.6rem 0 .2rem;color:var(--fir)}
+.note{color:var(--slate);font-size:.95rem;margin-bottom:1rem}
+.plan ul{margin:0 0 1.5rem;padding-left:1.1rem;color:var(--slate)}
+.plan .btn{margin-top:auto;text-align:center}
+
+details{border-top:1px solid var(--line);padding:18px 0}
+details:last-of-type{border-bottom:1px solid var(--line)}
+summary{font-weight:600;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:1rem}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-size:1.4rem;line-height:1;color:var(--fir)}
+details[open] summary::after{content:"\2212"}
+details p{margin:.8rem 0 0;color:var(--slate)}
+.faq{max-width:760px}
+
+.contact{background:var(--fir);color:#eaf2ed}
+.contact .wrap{display:grid;grid-template-columns:1fr 1.1fr;gap:56px}
+.contact h2{color:#fff}
+.contact p{color:#c9dad0;margin-top:.8rem}
+form{display:grid;gap:16px}
+label{font-weight:600;font-size:.95rem;display:grid;gap:6px}
+input,textarea{font:inherit;padding:.75em .9em;border-radius:6px;border:1px solid #6f9380;background:#fff;color:var(--ink);width:100%}
+textarea{min-height:140px;resize:vertical}
+form .btn{background:var(--signal);border-color:var(--signal);color:#1b1500;justify-self:start}
+form .btn:hover{background:#f2c53f}
+.hp{position:absolute;left:-9999px}
+#status{min-height:1.5em;font-weight:500}
+@media(max-width:800px){.contact .wrap{grid-template-columns:1fr;gap:28px}}
+
+footer.site{background:#0d2a1c;color:#9fbcac;padding:28px 0;font-size:.95rem}
+footer.site .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Evergreen Techops Consulting home">
+      <img src="images/evergreen-logo.png" alt="" width="42" height="43">
+      Evergreen Techops
+    </a>
+    <nav aria-label="Main">
+      <a href="#services">Services</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+      <a class="btn" href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+<div class="hero">
+  <div class="wrap">
+    <div>
+      <h1>Unleash your business potential</h1>
+      <p>Upgrade your tech strategy with effective IT solutions. We keep things simple and forward-thinking, and we support homes and businesses.</p>
+      <a class="btn" href="#contact">Start now</a>
+      <a class="btn alt" href="#services">See services</a>
+    </div>
+    <div class="board" role="img" aria-label="Areas Evergreen Techops monitors: network, backups, security, cloud">
+      <h2>What we keep an eye on</h2>
+      <ul>
+        <li>Network <span><i></i>Stable</span></li>
+        <li>Backups <span><i></i>Current</span></li>
+        <li>Security <span><i></i>Patched</span></li>
+        <li>Cloud <span><i></i>Running</span></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="clients">
+  <div class="wrap">
+    <h2>Businesses we've worked with</h2>
+    <ul>
+      <li><img src="images/ians.png" alt="Ian's" width="300" height="300"></li>
+      <li><img src="images/bulwark.png" alt="Bulwark Capital Management" width="343" height="300"></li>
+      <li><img class="wide" src="images/frontsteps.png" alt="Frontsteps" width="600" height="70"></li>
+      <li><img src="images/undivided.png" alt="[un]DIVIDED with Brandi Kruse" width="446" height="300"></li>
+    </ul>
+  </div>
+</div>
+
+<section id="services">
+  <div class="wrap">
+    <div class="intro">
+      <h2>Core packages</h2>
+      <p>Practical IT for small and mid-sized organizations in Washington and beyond.</p>
+    </div>
+    <div class="services">
+      <div><h3>IT strategy consulting</h3><p>A clear technology plan tied to where your business is going.</p></div>
+      <div><h3>Cybersecurity services</h3><p>Find and close security gaps before they become problems.</p></div>
+      <div><h3>Cloud services management</h3><p>Set up, secure and maintain the cloud tools your team relies on.</p></div>
+      <div><h3>Data analytics solutions</h3><p>Turn the data you already have into decisions you can act on.</p></div>
+      <div><h3>Residential IT solutions</h3><p>Home networks, internet service and device help for your household.</p></div>
+      <div><h3>IT support and maintenance</h3><p>On-site and remote support, updates and upgrades.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="home" id="home-it">
+  <div class="wrap">
+    <div>
+      <h2>Simplify your home IT needs</h2>
+      <p style="margin-top:1rem;color:var(--slate)">We also specialize in residential IT. We advocate for you to get the best internet service in your area, work to reduce your monthly bill, and keep your home network secure.</p>
+    </div>
+    <ul>
+      <li>Get the best internet service available at your address</li>
+      <li>Lower your monthly internet cost</li>
+      <li>Keep your home network secure</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <blockquote>
+      <p>Evergreen Techops Consulting transformed our IT infrastructure! Their expertise and dedication are unmatched. The team was professional, efficient, and incredibly helpful. Highly recommend their services.</p>
+      <footer>Alex</footer>
+    </blockquote>
+  </div>
+</section>
+
+<section id="pricing" style="padding-top:0">
+  <div class="wrap">
+    <div class="intro"><h2>Pricing plans</h2></div>
+    <div class="plans">
+      <article class="plan">
+        <h3>Residential IT support</h3>
+        <div class="price">Contact us</div>
+        <div class="note">Pricing depends on your home</div>
+        <p>Expert help with IT issues, maintenance, updates and upgrades.</p>
+        <ul><li>Setup</li><li>Increase internet speed and stability</li><li>Lower your monthly internet cost</li><li>Diagnose issues and security vulnerabilities</li></ul>
+        <a class="btn alt" href="#contact">More info</a>
+      </article>
+      <article class="plan pop">
+        <span class="tag">Popular</span>
+        <h3>Podcast buildout</h3>
+        <div class="price">$1,200</div>
+        <div class="note">&nbsp;</div>
+        <p>Tailored podcast design and setup: choosing the right equipment, optimizing audio quality and streamlining your workflow, start to finish.</p>
+        <ul><li>On-site support</li><li>First-hand experience with industry-leading hardware</li></ul>
+        <a class="btn" href="#contact">More info</a>
+      </article>
+      <article class="plan">
+        <h3>Premium IT consulting</h3>
+        <div class="price">From $2,500</div>
+        <div class="note">Depends on the scope of the project</div>
+        <p>For small to medium-sized companies. Full-scale IT solutions, strategic planning and 24/7 support.</p>
+        <ul><li>Planning</li><li>24/7 support</li></ul>
+        <a class="btn alt" href="#contact">More info</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="faq" style="padding-top:0">
+  <div class="wrap">
+    <div class="intro"><h2>Frequently asked questions</h2></div>
+    <div class="faq">
+      <details><summary>What services do you offer?</summary><p>We offer a range of IT consulting services including system integration, project management, and cybersecurity solutions.</p></details>
+      <details><summary>How can you help my business?</summary><p>We can optimize your IT infrastructure to improve efficiency, security, and overall performance.</p></details>
+      <details><summary>Do you offer remote support?</summary><p>Yes, we provide both on-site and remote IT support to meet your needs wherever you are.</p></details>
+      <details><summary>What industries do you serve?</summary><p>We serve various industries, including new media, finance, and residential, tailoring our services to fit each sector.</p></details>
+      <details><summary>How experienced is your team?</summary><p>Our team has years of experience in IT consulting and stays updated with the latest technologies.</p></details>
+      <details><summary>Can you handle large projects?</summary><p>Absolutely. We have the expertise and resources to manage projects of any size and complexity.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div>
+      <h2>Contact us today</h2>
+      <p>Need IT help? Fill out the form and we'll get back to you soon. We're here to assist with all your tech needs.</p>
+    </div>
+    <form id="contact-form" action="https://formspree.io/f/mppqjnae" method="POST">
+      <label>Name <input name="name" autocomplete="name" required></label>
+      <label>Email <input type="email" name="email" autocomplete="email" required></label>
+      <label>Message <textarea name="message" required></textarea></label>
+      <input class="hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="btn" type="submit">Send message</button>
+      <div id="status" role="status" aria-live="polite"></div>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>&copy; <span id="yr">2026</span> Evergreen Techops Consulting</span>
+    <span>Washington, USA</span>
+  </div>
+</footer>
+
+<script>
+document.getElementById('yr').textContent = new Date().getFullYear();
+const form = document.getElementById('contact-form'), status = document.getElementById('status');
+form.addEventListener('submit', async e => {
+  e.preventDefault();
+  status.textContent = 'Sending…';
+  try {
+    const r = await fetch(form.action, {method:'POST', body:new FormData(form), headers:{Accept:'application/json'}});
+    if (r.ok) { form.reset(); status.textContent = 'Message sent. We\'ll reply soon.'; }
+    else status.textContent = 'Message not sent. Please try again in a moment.';
+  } catch { status.textContent = 'Message not sent. Check your connection and try again.'; }
+});
+</script>
+</body>
+</html>
